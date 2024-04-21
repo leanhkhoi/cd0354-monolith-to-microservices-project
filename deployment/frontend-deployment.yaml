@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: leanhkhoi1996/udagram-frontend:v1.0.0
+          image: leanhkhoi1996/udagram-frontend:v1.0.1
           imagePullPolicy: Always
           envFrom:
             - secretRef:
@@ -36,3 +36,4 @@ spec:
         - name: aws-secret
           secret:
             secretName: aws-secret
+

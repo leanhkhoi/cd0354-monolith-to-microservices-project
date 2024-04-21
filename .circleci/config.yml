@@ -26,7 +26,7 @@ jobs:
           name: Deploy udagram-frontend to Dockerhub
           command: |
             docker build -t udagram-frontend ./udagram-frontend
-            docker tag udagram-frontend leanhkhoi1996/udagram-frontend:v1.0.0
+            docker tag udagram-frontend leanhkhoi1996/udagram-frontend:v1.0.1
             docker push leanhkhoi1996/udagram-frontend:v1.0.0
       - run:
           name: Deploy udagram-reverseproxy to Dockerhub
