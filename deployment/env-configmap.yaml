@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRES_HOST: project-3.cjagekxon4rs.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: khoila-project-3
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: hello
+  URL: http://aab1aac7c85434b6b9efd4c77e895724-570652583.us-east-1.elb.amazonaws.com:8100
+metadata:
+  name: env-config
